@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contratações</title>
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="menu">
+            <ul> 
+                <li><a href="file:///C:/Users/livis/Desktop/paradisetour.html">Página Inicial</a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/quemsomos.html">Quem somos?</a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/rotas.html">Rotas</a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/reclamacoes.html">Chamados</a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/cotratacao.html">Contratações</a></li>
+            </ul>
+        </nav>
+
+        <h1>Você está à procura de um emprego?</h1>
+        <h2>O que acha de juntar-se a nós?</h2>
+        <h2>Preencha o formulário abaixo e logo entraremos em contato.</h2>
+        <form action="www.url.com" id="form1" name="form-login" method="POST">
+            <p>Nome:<br> 
+                <input type="text" name="tName" id="dName"/></p>
+            <p>E-mail:<br> 
+                <input 
+                type="email" name="tMail" id="dMail" 
+                placeholder="ex.: joao@gmail.com"/></p>
+            <p>Telefone:<br> 
+                <input type="tel" name="tel" id="tel" 
+                placeholder="(84) 98888-8888"
+                pattern="([0-9]){2}[0-9]{5}-[0-9]{4}"/></p>
+            <p>Cargo desejado:<br>
+                <select id="est" name="cargos">
+                    <option value="motorista"> Motorista</option>
+                    <option value="guiche"> Guichê</option> 
+                    <option value="supervisor"> Supervisor</option>
+                    <option value="aux"> Auxiliar administrativo</option>
+                    <option value="gerente"> Gerente</option>
+                </select></p><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
